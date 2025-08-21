@@ -24,13 +24,12 @@ public class testaFuncionario {
 		func2.Salario = func2.aumentaSalario(85);
 		
 		System.out.println("------------------------------------------------");
-		System.out.println("Nome do funcionário 1: "+func1.nome);
-		System.out.println("Salário do funcionário reajustado: R$"+func1.Salario);
+		func1.consultarDados();
 		System.out.println("------------------------------------------------");
-		System.out.println("Nome do funcionário 2: "+func2.nome);
-		System.out.println("Salário do funcionário reajustado:"+func2.Salario);
+		func2.consultarDados();
 		System.out.println("------------------------------------------------");
 
 	}
 
 }
+
