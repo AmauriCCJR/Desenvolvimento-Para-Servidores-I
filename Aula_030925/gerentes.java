@@ -19,10 +19,11 @@ public class gerentes extends funcionarios{
 		public void setSenha(String senha) {
 			this.senha = senha;
 		}
-		
+		@Override //Declaração de que o metodo a seguir vai ter uma sobrecarga de método
 		public double calcBonificacao() {
 			return this.getSalario() * 0.5;
 		}
 		
 		
 }
+
