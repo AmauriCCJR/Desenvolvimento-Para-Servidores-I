@@ -23,7 +23,6 @@ public class gerentes extends funcionarios{
 		public double calcBonificacao() {
 			return this.getSalario() * 0.5;
 		}
-		
-		
 }
+
 
